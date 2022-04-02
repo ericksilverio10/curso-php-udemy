@@ -12,3 +12,9 @@
     velocidadeMaxima(67.90);
     velocidadeMaxima(128);
     velocidadeMaxima("olá mundo");
+
+    function descreverAnimal($nome,$raca){
+        echo "O $nome é da raça $raca<br>";
+    }
+
+    descreverAnimal("Bob","Vira-lata");
