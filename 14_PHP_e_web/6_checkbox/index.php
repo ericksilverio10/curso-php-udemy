@@ -27,7 +27,7 @@
             <input type="checkbox" name="ingredientes[]" value= "Tomate">Tomate
         </div>
         <div>
-            <input type="checkbox" name="ingredientes[]" value= "Beterraba">Cenoura
+            <input type="checkbox" name="ingredientes[]" value= "Beterraba">Beterraba
         </div>
         <div>
             <input type="checkbox" name="ingredientes[]" value= "Alface">Alface
