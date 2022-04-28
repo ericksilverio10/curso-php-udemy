@@ -3,7 +3,7 @@
     include_once('db.php');
     include_once('dao/CarDAO.php');
 
-    $car = new CarDAO($conn);
+    $carDao = new CarDAO($conn);
     $brand = $_POST['brand'];
     $km = $_POST['km'];
     $color = $_POST['color'];
@@ -12,3 +12,7 @@
     $newCar -> setBrand($brand);
     $newCar -> setKm($km);
     $newCar -> setColor($color);
+
+    $carDao->create($newCar);
+
+    header('Location: index.php');
